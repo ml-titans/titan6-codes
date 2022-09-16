@@ -1,0 +1,20 @@
+digraph {
+	x0
+	x1
+	x2
+	x3
+	x4
+	x5
+	x3 -> x0 [label=0.50]
+	x0 -> x1 [label=0.50]
+	x2 -> x1 [label=0.51]
+	x0 -> x4 [label=0.47]
+	x2 -> x4 [label=-0.51]
+	x0 -> x5 [label=0.53]
+	{
+		rank=same
+		x2
+		x3
+	}
+	x2 -> x3 [dir=both]
+}
